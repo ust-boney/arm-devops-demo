@@ -62,9 +62,6 @@
         "nicDeleteOption": {
             "type": "string"
         },
-        "hibernationEnabled": {
-            "type": "bool"
-        },
         "adminUsername": {
             "type": "string"
         },

@@ -6,13 +6,13 @@
             "value": "eastus"
         },
         "networkInterfaceName": {
-            "value": "arm-vm708"
+            "value": "azarmdemo273"
         },
         "enableAcceleratedNetworking": {
             "value": true
         },
         "networkSecurityGroupName": {
-            "value": "arm-vm-nsg"
+            "value": "azARMDemo-nsg"
         },
         "networkSecurityGroupRules": {
             "value": [
@@ -34,11 +34,26 @@
         "subnetName": {
             "value": "default"
         },
-        "virtualNetworkId": {
-            "value": "/subscriptions/2a3c6418-97b9-4d96-a24b-2c2d7633d375/resourceGroups/rg-azuser2551_mml.local-sFdFh/providers/Microsoft.Network/virtualNetworks/arm-vm-vnet"
+        "virtualNetworkName": {
+            "value": "azARMDemo-vnet"
+        },
+        "addressPrefixes": {
+            "value": [
+                "10.0.0.0/16"
+            ]
+        },
+        "subnets": {
+            "value": [
+                {
+                    "name": "default",
+                    "properties": {
+                        "addressPrefix": "10.0.0.0/24"
+                    }
+                }
+            ]
         },
         "publicIpAddressName": {
-            "value": "arm-vm-ip"
+            "value": "azARMDemo-ip"
         },
         "publicIpAddressType": {
             "value": "Static"
@@ -47,13 +62,13 @@
             "value": "Standard"
         },
         "pipDeleteOption": {
-            "value": "Detach"
+            "value": "Delete"
         },
         "virtualMachineName": {
-            "value": "arm-vm"
+            "value": "azARMDemo"
         },
         "virtualMachineComputerName": {
-            "value": "arm-vm"
+            "value": "azARMDemo"
         },
         "virtualMachineRG": {
             "value": "rg-azuser2551_mml.local-sFdFh"
@@ -68,7 +83,7 @@
             "value": "Standard_D2s_v3"
         },
         "nicDeleteOption": {
-            "value": "Detach"
+            "value": "Delete"
         },
         "hibernationEnabled": {
             "value": false
@@ -77,7 +92,7 @@
             "value": "boney"
         },
         "adminPassword": {
-            "value": "Devvm_152607"
+            "value": null
         },
         "patchMode": {
             "value": "AutomaticByOS"

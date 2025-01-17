@@ -35,7 +35,7 @@
             "value": "default"
         },
         "virtualNetworkId": {
-            "value": "/subscriptions/2a3c6418-97b9-4d96-a24b-2c2d7633d375/resourceGroups/rg-azuser2550_mml.local-8wGtr/providers/Microsoft.Network/virtualNetworks/aksmachine-vnet"
+            "value": "/subscriptions/2a3c6418-97b9-4d96-a24b-2c2d7633d375/resourceGroups/rg-azuser2551_mml.local-sFdFh/providers/Microsoft.Network/virtualNetworks/arm-vm-vnet"
         },
         "publicIpAddressName": {
             "value": "arm-vm-ip"
@@ -56,7 +56,7 @@
             "value": "arm-vm"
         },
         "virtualMachineRG": {
-            "value": "rg-azuser2550_mml.local-8wGtr"
+            "value": "rg-azuser2551_mml.local-sFdFh"
         },
         "osDiskType": {
             "value": "Premium_LRS"
@@ -65,7 +65,7 @@
             "value": "Delete"
         },
         "virtualMachineSize": {
-            "value": "Standard_D4s_v3"
+            "value": "Standard_D2s_v3"
         },
         "nicDeleteOption": {
             "value": "Detach"
@@ -74,10 +74,10 @@
             "value": false
         },
         "adminUsername": {
-            "value": "nikhil"
+            "value": "boney"
         },
         "adminPassword": {
-            "value": null
+            "value": "Devvm_152607"
         },
         "patchMode": {
             "value": "AutomaticByOS"
